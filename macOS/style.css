@@ -1,0 +1,256 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(photos/bg2.jpg);
+    background-position: top;
+    background-size: cover;
+  
+}
+
+nav{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(100px);
+    height: 25px;
+}
+
+#logo{
+    width: 20px;
+    padding: 10px auto;
+}
+
+.ribbon{
+    display: flex;
+    letter-spacing: 0px;
+    font-size: 13px;
+    font-weight: 300;
+    color: white;
+    font-family: sf pro display;
+    width: 550px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ribbon div{
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ribbon div:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+#appname{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.nav_notif{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-grow: 1;
+}
+
+.notibar{
+    width: 300px;
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+    font-family: sf pro display;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.notibar>div{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.notibar > div:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+#time{
+    display: flex;
+    justify-content: space-evenly;
+    width: 150px;
+    align-items: center;
+}
+
+.notibar img{
+    height: 18px;
+}
+
+
+.dock{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    bottom: 10px;
+    justify-content: center;
+}
+
+
+.maindock{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+
+
+.middle{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.window{
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(100px);
+    height: 750px;
+    width: 1050px;
+    border-radius: 10px;
+
+    display: flex;
+}
+
+.sidenav{
+    height: 100%;
+    width: 200px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.ctrl_buttons{
+    color: white;
+    margin-left: 20px;
+    height: 50px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ctrl_buttons>div{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.ctrl_buttons>div:nth-of-type(1){
+    border: 0.5px solid red;
+    background-color: rgb(255, 67, 67);
+}
+
+.ctrl_buttons>div:nth-of-type(2){
+    border: 0.5px solid yellow;
+    background-color: rgb(255, 192, 0);
+}
+
+.ctrl_buttons>div:nth-of-type(3){
+    border: 0.5px solid green;
+    background-color: rgb(0, 176, 80);
+}
+
+.mail_nav{
+    height: 100%;
+    border-bottom-left-radius: 10px;
+    margin: 0 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.mail_type_categ{
+    padding: 5px;
+    color: rgb(200, 200, 200);
+    font-family: sf pro;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.mail_nav>div:nth-of-type(4){
+    margin-top: 15px;
+}
+
+.mail_nav>div:nth-of-type(7){
+    margin-top: 15px;
+}
+
+.mail_type{
+    padding: 5px 10px;
+    border-radius: 7px;
+    color: white;
+    font-family: sf pro;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+
+}
+
+.mail_type:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(50px);
+    cursor: pointer;
+}
+
+.app_content{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    flex-grow: 1;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.app_nav{
+    /* background-color: black; */
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 50px;
+}
+
+.item{
+    width: 100%;
+    height: 700px;
+    border-bottom-right-radius: 10px;
+
+    display: flex;
+}
+
+.item_list{
+    /* background-color: black; */
+    width: 35%;
+    height: 100%;
+}
+
+
+.item_content{
+    border-bottom-right-radius: 10px;
+    /* background-color: black; */
+    width: 65%;
+    height: 100%;
+
+}
