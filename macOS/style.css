@@ -320,7 +320,7 @@ nav{
 }
 
 .inbox_banner>div:nth-of-type(1){
-    font-size: 14px;
+    font-size: 13px;
     /* width: 70%; */
     font-weight: 800;
     color: rgba(255, 255, 255, 0.8);
@@ -334,10 +334,22 @@ nav{
 }
 
 .inbox_head>div:nth-of-type(2){
-    width:50px;
+    width:30px;
+    padding: 5px 0 5px 0;
+    border-radius: 8px;
+    transition: background-color 100ms;
+
+    display: flex;
+    justify-content: center;
+}
+
+.inbox_head>div:nth-of-type(2):hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
 }
 
 .inbox_head>div:nth-of-type(2)>img{
+    
     float: right;
     height: 15px;
     width: 15px;
@@ -372,7 +384,7 @@ nav{
 
 
 .email{
-    /* background-color: rgba(255, 255, 255, 0.3); */
+    background-color: rgba(255, 255, 255, 0.07);
     border-radius: 8px;
     color: aliceblue;
     font-size: 12px;
@@ -410,9 +422,9 @@ nav{
     display: flex;
     align-items: center;
     flex-grow: 1;
-    color: rgba(255, 255, 255, 1);
-    padding-bottom: 2px;
+    color: rgba(255, 255, 255, 0.9);
     padding-top: 2px;
+    padding-bottom: 0px;
 }
 
 .email>div:nth-of-type(3){
@@ -427,7 +439,7 @@ nav{
 
 .sender{
     color: white;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
     flex:1;
 }
