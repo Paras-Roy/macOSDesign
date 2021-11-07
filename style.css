@@ -59,7 +59,6 @@ body{
 nav{
     display: flex;
     background-color: rgba(0, 0, 0, 0.2);    
-    letter-spacing: 0.5px;
     backdrop-filter: blur(100px);
     height: 25px;
 }
@@ -336,7 +335,6 @@ nav{
     flex-grow: 1;
     width: 1050px;
     background-color: rgba(0, 0, 0, 0.8);
-    letter-spacing: 0.5px;
 
     display: flex;
     flex-wrap: wrap;
