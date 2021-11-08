@@ -1,7 +1,9 @@
 # macOSDesign
-Tried to imitate an instance of macOS using HTML5 and CSS3 only for now.
+Trying to imitate an instance of macOS.
+You can still visit incomplete site here:- https://macosdesign.herokuapp.com/
+
+![image](https://user-images.githubusercontent.com/93031750/140660940-31e3e013-382b-44f5-b000-8534859af382.png)
 
 
-
-![image](https://user-images.githubusercontent.com/93031750/140638722-c2b8fc3d-7aa8-4e87-849e-159e771f9263.png)
-constantly being updated :)
+# Note
+Press F11 upon visiting site. Best experience in fullscreen mode.
