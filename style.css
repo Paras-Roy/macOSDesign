@@ -40,7 +40,35 @@
     src: url(fonts/SF-Pro-Display-Heavy.otf);
     font-weight: 800;
 }
+@font-face{
+    font-family: sf pro;
+    src: url(fonts/SF-Pro-Text-Bold.otf);
+    font-weight: 700;
+}
 
+@font-face{
+    font-family: sf pro;
+    src: url(fonts/SF-Pro-Text-Light.otf);
+    font-weight: 300;
+}
+
+@font-face{
+    font-family: sf pro;
+    src: url(fonts/SF-Pro-Text-Medium.otf);
+    font-weight: 500;
+}
+
+@font-face{
+    font-family: sf pro;
+    src: url(fonts/SF-Pro-Text-Regular.otf);
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: sf pro;
+    src: url(fonts/SF-Pro-Text-Semibold.otf);
+    font-weight: 600;
+}
 
 *{
     box-sizing: border-box;
@@ -48,7 +76,7 @@
 
 body{
     margin: 0;
-    letter-spacing: -3px;
+    letter-spacing: 1px;
     padding: 0;
     background-image: url(photos/bg2.jpg);
     background-position: top;
@@ -249,14 +277,16 @@ nav{
 .mail_type_categ{
     padding: 5px;
     color: rgb(255, 255, 255, 0.6);
-    font-family: sf pro;
+    font-family: sf pro display;
     font-size: 12px;
-    font-weight: 700;
+    font-weight: 600;
     
 }
 
 .mail_categ_name{
     flex: 1;
+    font-family: sf pro display;
+    font-weight: 400;
     transition: margin-left 150ms;
 }
 
